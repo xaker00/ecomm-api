@@ -21,6 +21,8 @@ E-commerce API backend example.
 1. Open a terminal in the downloaded folder
 1. Install dependencies `npm i`
 1. Create `.env` file and set database credentials. See `.env.EXAMPLE`
+1. Create database schema. In mysql shell run `source db\schema.sql`
+   ![screenshot](https://github.com/xaker00/ecomm-api/raw/master/screenshots/mysql.gif)
 1. Seed database `npm run seed`
 
 ## Usage
